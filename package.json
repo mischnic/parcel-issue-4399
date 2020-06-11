@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"transpile": "babel --plugins @babel/plugin-transform-modules-commonjs --delete-dir-on-start src-valid -d lib",
+		"run:valid": "node src-valid/index.js",
+		"run:invalid": "node src-invalid/index.js"
+	},
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1"
+  }
+}

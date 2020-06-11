@@ -1,0 +1,2 @@
+- `src-valid/index.{html,js}` should work
+- `src-invalid/index.{html,js}` would ideally throw. Chrome: Uncaught SyntaxError: The requested module './utilities.js' contains conflicting star exports for name 'c'
